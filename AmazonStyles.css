@@ -1,0 +1,257 @@
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 3px 10px;
+    background-color: #131921;
+    color: white;
+}
+h3{
+    font-size: 20px;
+    gap:0px;
+    color: black;;
+}
+
+/* Logo */
+.logo {
+    white-space: nowrap;
+}
+
+/* Location */
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Language */
+.language {
+    white-space: nowrap;
+}
+
+/* Account */
+.account {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+/* Orders */
+.orders {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+/* Cart */
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+.navbar,a{
+    display: flex;
+    align-items: center;
+    gap:7px;
+    padding: 0px 5px;
+    background-color: #1f2937;
+    color: white;
+
+}
+.hero-banner,.electronics,.fashion,.food,.home-accesories,.beauty,.footwear,.mobile-accesories,.festive-offers,.toys,.insurance,.speakers {
+ height: 500px;
+ width: 307px;
+ border-radius:10px;
+ gap: 0px;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12{
+ height: 400px;
+ width: 307px;
+ border-radius:10px;
+ gap: 5px;
+ background-color: rgb(255, 132, 0);
+
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12 h2{
+    font-size: 33px;
+    justify-content: center;
+    color: #eeeeee;
+    padding:0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+
+}
+.cards{
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(4,307px);
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding:8px;
+    margin-top: 0px;
+}
+.images img{
+    width:290px;
+    height: 300px;
+    display: grid;
+    object-fit: cover;
+}
+
+.image-grid img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+  
+}
+.footer {
+    width: 100%;
+    background-color: #232f3e;
+    color: white;
+   
+}
+
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    padding: 45px 9%;
+    border-bottom: 1px solid #3a4553;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin: 0 0 8px;
+    color: white;
+}
+
+.footer-column a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.footer-column a:hover,
+.service-column a:hover,
+.footer-legal a:hover {
+    text-decoration: underline;
+}
+
+/* Logo and Language */
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 35px 15px;
+    border-bottom: 1px solid #3a4553;
+}
+
+.footer-logo {
+    font-size: 27px;
+    margin: 0 25px 0 0;
+    color: white;
+}
+
+.footer-option {
+    background-color: transparent;
+    color: #eeeeee;
+    border: 1px solid #848e99;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Other Services */
+.footer-services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    padding: 40px 9%;
+    background-color: #131a22;
+}
+
+.service-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.service-column a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.service-column p {
+    color: #aaaaaa;
+    font-size: 13px;
+    line-height: 1.3;
+    margin: 2px 0 22px;
+}
+
+/* Copyright */
+.footer-bottom {
+    background-color: #131a22;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 30px;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-legal a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 13px;
+    color: #dddddd;
+}
+
+

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopKart - Online Shopping</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="AmazonStyles.css">
+</head>
+
+<body>
+
+
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+
+        <!-- Logo -->
+        <div class="logo">
+            <h1>ShopKart</h1>
+        </div>
+
+        <!-- Location -->
+        <div class="location">
+            <span>📍</span>
+            <div>
+                <small>Deliver to</small>
+                <strong>Chittoor</strong>
+            </div>
+        </div>
+
+        <!-- Search -->
+        <div class="search-container">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search products">
+            <button id="searchButton">🔍</button>
+        </div>
+<div class="language">
+      <label for="languages">select Languages</label><br />
+      <small>Hindi, Telugu</small><br />
+      <select id="languages" name="languages">
+        <option value="Hindi">Hindi</option>
+        <option value="Telugu">Telugu</option>
+        <option value="Punjabi">Punjabi</option>
+        <option value="Tamil">Tamil</option>
+        <option value="Kannada">Kannada</option>
+        <option value="Malayalam">Malayalam</option>
+        <option value="Bengali">Bengali</option>
+        <option value="Marathi">Marathi</option>
+        <option value="Gujarati">Gujarati</option>
+        <option value="Haryanvi">Haryanvi</option>
+        <option value="Odia">Odia</option>
+        <option value="Bhojpuri">Bhojpuri</option>
+        <option value="Sanskrit">Sanskrit</option>
+        <option value="Rajasthani">Rajasthani</option>
+        <option value="Assamese">Assamese</option>
+      </select>
+    </div>
+        <!-- Account -->
+        <div class="account">
+            <small>Hello, Sign in</small>
+            <strong>Account & Lists</strong>
+        </div>
+
+        <!-- Orders -->
+        <div class="orders">
+            <small>Returns</small>
+            <strong>& Orders</strong>
+        </div>
+
+        <!-- Cart -->
+        <div class="cart">
+            <span class="cart-icon">🛒</span>
+            <strong>Cart (<span id="cartCount">0</span>)</strong>
+        </div>
+
+    </header>
+
+
+    <!-- ================= NAVIGATION ================= -->
+    <nav class="navbar">
+
+        <button id="menuButton">☰ All</button>
+        
+        <a href="#">Fresh</a>
+        <a href="#">Prime video</a>
+        
+        <a href="#">Sell</a>
+
+        <a href="#">Best Sellers</a>
+        <a href="#">Today's Deals</a>
+        <a href="#electronics">Mobiles</a>
+        <a href="#fashion">Nwe releases</a>
+        <a href="#books">Customer services</a>
+        <a href="#sports">prime</a>
+        <a href="#"><h2>Great Indian Festival|Live Now></h2></a>
+
+    </nav>
+    <!-- <section class="brands">
+    <img src="herosection.jpeg" alt="mens-collection" class="hero-banner">
+    <img src="electronics.jpeg" alt="electrical-items" class="electronics">
+    <img src="fashion.jpeg" alt="fashion" class="fashion">
+    <img src="food.jpeg" alt="food-items" class="food">
+    <img src="homeaccesories.jpeg" alt="home-items" class="home-accesories">
+    <img src="beauty.jpeg" alt="beauty-products" class="beauty">
+    <img src="footwear.jpeg" alt="footwear" class="footwear">
+    <img src="mobile-accesories.jpeg" alt="mobile-items" class="mobile-accesories">
+    <img src="festive-offers.jpeg" alt="festival-items" class="festive-offers">
+    <img src="toys.jpeg" alt="toys" class="toys">
+    <img src="insurance.jpeg" alt="insurance" class="insurance">
+    <img src="speakers.jpeg" alt="speakers" class="speakers">
+
+
+
+</section> -->
+<section class="cards">
+    
+    <div class="card1">
+        <div class="images">
+        <h3>Live</h3>
+        <a href="products.html?category=live-deals">
+        <img src="images/card4.jpeg" alt=""></a>
+
+    </div></div>
+    <div class="card2">
+        <div class="images">
+        <h3>Do not miss these deals</h3>
+         <a href="products.html?category=beauty">
+        <img src="images/card2.jpeg" alt=""></a>
+
+    </div> 
+    
+</div>    <div class="card3">
+        <div class="images">
+        <h3>Trending deals</h3>
+         <a href="products.html?category=paste">
+        <img src="images/card3.jpeg" alt=""></a>
+
+    </div></div>
+    <div class="card4">
+        <div class="images">
+        <h3>vissit these....</h3>
+         <a href="products.html?category=jeans">
+        <img src="images/card1.jpeg" alt=""></a>
+    </div>
+    </div>
+    <div class="card5">
+        <h3>Trending deals</h3>
+        <div class="image-grid">
+            <a href="products.html?category=laptops-1">
+    <img src="images/card5-img1.jpeg" alt="card5-img1">
+</a>
+             <a href="products.html?category=laptops-2">
+    <img src="images/card5-img2.jpeg" alt="">
+</a>
+
+<a href="products.html?category=laptops-3">
+    <img src="images/card5-img3.jpeg" alt="">
+</a>
+
+<a href="products.html?category=laptops-4">
+    <img src="images/card5-img4.jpeg" alt="">
+</a>
+    </div>
+    </div>
+    <div class="card6">
+        <h3>discount sales</h3>
+         <div class="image-grid">
+             <a href="products.html?category=under99">
+        <img src="images/card6-img1.jpeg" alt=""></a>
+         <a href="products.html?category=under199">
+        <img src="images/card6-img2.jpeg" alt=""></a>
+        <a href="products.html?category=under299">
+        <img src="images/card6-img3.jpeg" alt=""></a>
+         <a href="products.html?category=under499">
+        <img src="images/card6-img4.jpeg" alt=""></a>
+        </div>
+    </div>
+    <div class="card7">
+        <h3>Fashion</h3>
+         <div class="image-grid">
+         <a href="products.html?category=fashion1">
+        <img src="images/card7-img1.jpeg" alt=""></a>
+         <a href="products.html?category=fashion2">
+        <img src="images/card7-im2.jpeg" alt=""></a>
+         <a href="products.html?category=fashion3">
+        <img src="images/card7-img3.jpeg" alt=""></a>
+        <a href="products.html?category=fashion4">
+        <img src="images/card7-img4.jpeg" alt=""></a>
+        </div>
+        
+    </div>
+    <div class="card8">
+        <h3>Temple accesories</h3>
+         <div class="image-grid">
+
+         <a href="products.html?category=temple1">
+        <img src="images/card8-img1.jpeg" alt=""></a>
+         <a href="products.html?category=temple2">
+        <img src="images/card8-img2.jpeg" alt=""></a>
+         <a href="products.html?category=temple3">
+        <img src="images/card8-img3.jpeg" alt=""></a>
+         <a href="products.html?category=temple4">
+        <img src="images/card8-img4.jpeg" alt=""></a>
+        </div>
+        
+    </div>
+    <div class="card9">
+        <h3>Recommended books</h3>
+         <div class="image-grid">
+         <a href="products.html?category=book1">
+        <img src="images/card9-img1.jpeg" alt=""></a>
+        <a href="products.html?category=book2">
+        <img src="images/card9-img2.jpeg" alt=""></a>
+        <a href="products.html?category=book3">
+        <img src="images/card9-img3.jpeg" alt=""></a>
+         <a href="products.html?category=book4">
+        <img src="images/card9-img4.jpeg" alt=""></a>
+        </div>
+        
+    </div>
+    <div class="card10">
+        <h3>Cameras on discount sale</h3>
+         <div class="image-grid">
+         <a href="products.html?category=camera1">
+        <img src="images/card10-img1.jpeg" alt=""></a>
+         <a href="products.html?category=camera2">
+        <img src="images/card10-img2.jpeg" alt=""></a>
+        <a href="products.html?category=camera3">
+        <img src="images/card10-img3.jpeg" alt=""></a>
+         <a href="products.html?category=camera4">
+        <img src="images/card10-img4.jpeg" alt=""></a>
+        </div>
+
+    </div>
+    <div class="card11">
+        <h3>Beauty products</h3>
+         <div class="image-grid">
+          <a href="products.html?category=beauty1">
+        <img src="images/card11-img1.jpeg" alt=""></a>
+         <a href="products.html?category=beauty2">
+        <img src="images/card11-img2.jpeg" alt=""></a>
+        <a href="products.html?category=beauty3">
+        <img src="images/card11-img3.jpeg" alt=""></a>
+         <a href="products.html?category=beauty4">
+        <img src="images/card11-img4.jpeg" alt=""></a>
+        </div>
+
+    </div>
+    <div class="card12">
+        <h3>ASoft toys and toys</h3>
+         <div class="image-grid">
+           <a href="products.html?category=toy1">
+        <img src="images/card12-img1.jpeg" alt=""></a>
+        <a href="products.html?category=toy2">
+        <img src="images/card12-img2.jpeg" alt=""></a>
+        <a href="products.html?category=toy3">
+        <img src="images/card12-img3.jpeg" alt=""></a>
+        <a href="products.html?category=toy4">
+        <img src="images/card12-img4.jpeg" alt=""></a>
+        </div>
+
+    </div>
+    
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-column">
+            <h3>Get to Know Us</h3>
+            <a href="#">About ShopKart</a>
+            <a href="#">Careers</a>
+            <a href="#">Press Releases</a>
+            <a href="#">Our Services</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Connect with Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Make Money with Us</h3>
+            <a href="#">Sell on ShopKart</a>
+            <a href="#">Become a Seller</a>
+            <a href="#">Protect Your Brand</a>
+            <a href="#">Affiliate Program</a>
+            <a href="#">Advertise Your Products</a>
+            <a href="#">ShopKart Pay</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Let Us Help You</h3>
+            <a href="#">Your Account</a>
+            <a href="#">Returns Centre</a>
+            <a href="#">Product Safety Alerts</a>
+            <a href="#">Purchase Protection</a>
+            <a href="#">App Download</a>
+            <a href="#">Help</a>
+        </div>
+
+    </div>
+
+
+    <!-- Logo, Language and Country -->
+    <div class="footer-middle">
+
+        <h2 class="footer-logo">ShopKart</h2>
+
+        <button class="footer-option">@ English </button>
+
+        <button class="footer-option">IN India</button>
+
+    </div>
+
+    <div class="footer-services">
+
+        <div class="service-column">
+            <a href="#">ShopKart Books</a>
+            <p>Books, art<br>& collectibles</p>
+
+            <a href="#">ShopKart Fashion</a>
+            <p>Designer<br>Fashion Brands</p>
+        </div>
+
+        <div class="service-column">
+            <a href="#">ShopKart Web Services</a>
+            <p>Cloud Computing<br>Services</p>
+
+            <a href="#">ShopKart Business</a>
+            <p>Everything for<br>Your Business</p>
+        </div>
+
+        <div class="service-column">
+            <a href="#">ShopKart Music</a>
+            <p>Stream millions of<br>songs</p>
+
+            <a href="#">ShopKart Audio</a>
+            <p>Download Audio Books</p>
+        </div>
+
+        <div class="service-column">
+            <a href="#">ShopKart Movies</a>
+            <p>Movies, TV<br>& Entertainment</p>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="footer-legal">
+            <a href="#">Conditions of Use & Sale</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Interest-Based Ads</a>
+        </div>
+
+        <p>
+            2026 shopkart. all rights reserved
+        </p>
+
+    </div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>
